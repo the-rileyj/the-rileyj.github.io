@@ -1,3 +1,5 @@
+/*Individual Characteristics*/
+
 hr
 {
   border: 0 none;
@@ -7,48 +9,48 @@ hr
 
 p.boldened_para
 {
-  text-align: center;
+  font-family: Arial;
   font-size: 400%;
-  font-weight: 900;
-  color: #000000;
-  background-color: #99ddff;
-  border-style: solid;
-  border-width: 1px;
-  width: 60%;
-  height: 75%;
-  margin: 0 auto;
-}
-
-a.b_p
-{
-  display: block;
-  text-align: center;
-  width: 75%;
-  height: 75%;
-  margin: 0 auto;
-  text-decoration: none !important;
+  font-weight: 700;
 }
 
 p.small_text_colored
 {
-  border-style: solid;
-  border-width: 1px;
-  text-align: center;
   font-size: 150%;
-  color: #000000;
-  background-color: #99ddff;
   background-size: 25% 50px;
-  margin: 0 auto;
   line-height: 50px;
-  text-decoration: none !important;
 }
 
 a.s_t_c
 {
-  display: block;
-  text-align: center;
   width: 25%;
   height: 50px;
-  margin: 0 auto;
+}
+
+/*Shared Characteristics*/
+
+p.small_text_colored, p.boldened_para
+{
+  color: #000000;
+  background-color: #99ddff;
+  border-style: solid;
+  border-width: 1px;
+}
+
+p.small_text_colored, p.boldened_para, a.s_t_c, a.b_p
+{
   text-decoration: none !important;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p.boldened_para, a.b_p
+{
+  width: 75%;
+  height: 75%;
+}
+
+a.b_p, a.s_t_c
+{
+  display: block;
 }
