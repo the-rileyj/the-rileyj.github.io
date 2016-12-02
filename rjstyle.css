@@ -40,14 +40,14 @@ p.boldened_para
 p.small_text_colored
 {
   font-size: 150%;
-  background-size: 25% 50px;
-  line-height: 50px;
+  background-size: 25% 200%;
+  line-height: 200%;
 }
 
 a.s_t_c
 {
   width: 25%;
-  height: 50px;
+  height: 200%;
 }
 
 /*Shared Characteristics*/
