@@ -33,7 +33,6 @@ hr
 
 p.boldened_para
 {
-  font-family: Oswald;
   font-size: 400%;
   font-weight: 300;
 }
@@ -56,6 +55,7 @@ a.s_t_c
 p.small_text_colored, p.boldened_para
 {
   color: #000000;
+  font-family: Oswald;
   background-color: #99ddff;
   border-style: solid;
   border-width: 1px;
